@@ -110,30 +110,41 @@ h1.name {
 	color: yellow;
 	font-weight: 50;
 	margin-top: 5px;
-	margin-left: 20px;
+	margin-left: 10px;
 	border-radius: 5px;
 	display: inline-block;
-	padding: 15px 25px;
-	
+	padding: 15px 25px;	
 	max-width: 300px;
+}
+.job-title{
+	font-size: 24px;
+	font-weight: lighter;
+	width: 200px;
 }
 
 .past-title{
-	float: right;
+	float: clear;
+	padding-left:30px;
 }
-.email {
+
+#email-add {
 	display: block;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 300;
 	color: rgb(4, 10, 24);
 	margin-top: 10px;
 }
 
 .lead {
-	font-size: 44px;
+	font-size: 40px;
 	font-weight: 300;
 	margin-top: 60px;
 	line-height: 55px;
+	text-align: left;
+
+}
+ul {
+line-height:150%
 }
 
 /*hero ends*/
@@ -170,6 +181,7 @@ img{
 	display: block;
 	margin-top: 20px;
 }
+
 
 .card {
 	width: 17.9%;
