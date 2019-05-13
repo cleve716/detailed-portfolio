@@ -49,27 +49,13 @@ body {
 	text-rendering : optimizeLegibility;
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
-	background-color: rgb(86, 154, 212);
+	background-color: rgb(231, 239, 245);
 	color: #04143A;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 p {
-	color: #15171a;
+	color: white;
 	font-size: 17;
 	line-height: 31px;
 }
@@ -82,7 +68,7 @@ div , footer {
 	box-sizing: border-box;
 }
 
-/* Reset ends */
+
 
 
 /*Hero section*/
@@ -107,7 +93,7 @@ h1.name {
 .job-title, .past-title{
 	vertical-align: top;
 	background-color: rgb(12, 42, 78);
-	color: yellow;
+	color: white;
 	font-weight: 50;
 	margin-top: 5px;
 	margin-left: 10px;
@@ -147,22 +133,11 @@ ul {
 line-height:150%
 }
 
-/*hero ends*/
 
-/*skills & intrests*/
 
-.sections {
-	vertical-align: top;
-	display: inline-block;
-	width: 49.7%;
-	height: 50px;
-}
 
-.section-title {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 15px;
-}
+
+
 
 img{
 	border-style: solid;
@@ -170,10 +145,6 @@ img{
   border-width: 1px;
 }
 
-
-/*skill and intrests ends*/
-
-/* Achievements */
 
 
 .cards {
@@ -186,7 +157,7 @@ img{
 .card {
 	width: 17.9%;
 	height: 290px;
-	background-color: rgb(153, 238, 215);
+	background-color: rgb(12, 42, 78);
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
@@ -197,13 +168,18 @@ img{
 	border-style: solid;
   border-color: black;
   border-width: 1px;
+  color: white;
+  line-height: 1.5;
 }
-.card-active , .card:hover{
-	transform: scale(2.0);
+ .card:hover{
+	transform: scale(1.5);
 	transition: 0.4s;
-	background-color:rgb(231, 231, 132);
+	background-color:rgb(92, 149, 199);
 	box-shadow: 0px 5px 50px -8px white;
 	cursor: pointer;
+	color: black;
+	line-height: 1.5;
+	
 }
 
 #card-head{
@@ -212,7 +188,7 @@ img{
 }
 
 
-/* ---- Hover effects ---- */
+
 li:hover {
   color: #48A4D2;
 }
@@ -220,7 +196,7 @@ li .description {
   display: block;
 }
 
-/*timeline ends*/
+
 
 
 
@@ -232,7 +208,11 @@ li .description {
 		margin: 0px auto;
 	}
 	.cards {
-		margin-top: 250px;
+		margin-top: 50px;
+	}
+	.card {
+		padding: 15px;	
+		height: 400px;
 	}
 }
 
@@ -242,18 +222,19 @@ li .description {
 		margin: 0px auto;
 	}
 	.cards {
-		margin-top: 320px;
+		margin-top: 15px;
 	}
 
 	.card {
-		padding: 15px;
-		text-align: left;
+		padding: 15px;	
+		height: 400px;
+		margin: 10px 0 0 40px;
 	}
 	.card h2 {
 		font-size: 70px;
 	}
 		.card , .sections {
-		width: 100%;
+			width: 75%;
 		height: auto;
 		margin: 10px 0;
 		float: left;
@@ -279,7 +260,7 @@ li .description {
 	.card , .sections {
 		width: 100%;
 		height: auto;
-		margin: 10px 0;
+		margin: 10px 0 0 40px;
 		float: left;
 	}
 
@@ -305,9 +286,8 @@ li .description {
 		padding: 0 15px;
 	}
 	footer {
-		margin-top: 2050px;
+		margin-top: 50px;
 	}
 	}
 
 
-/* End of all :P*/
