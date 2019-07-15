@@ -47,6 +47,8 @@ body {
 	font-size: 19px;
 	background-color: rgb(231, 239, 245);
 	color: #04143A;
+	background-image: url(background.jpg);
+	background-size:cover;
 }
 
 
@@ -126,6 +128,7 @@ h1.name {
 	line-height: 55px;
 	text-align: left;
 	font-family: Georgia;
+	width: 1000px;
 
 }
 ul {
@@ -194,7 +197,8 @@ li:hover {
 li .description {
   display: block;
 }
-
+ 
+ 
 
 
 
