@@ -125,7 +125,7 @@ h1.name {
 
 #title-head{
 	font-size: 24px;
-	align
+	text-align: center;
 }
 
 .lead {
@@ -211,6 +211,9 @@ li .description {
 	background: rgb(92, 149, 199);
 }
 
+#skill-list{
+	padding-left: 20px;
+}
 
 /* Media queries*/
 
