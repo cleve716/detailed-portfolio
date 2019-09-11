@@ -160,7 +160,7 @@ img{
 
 
 .card {
-	width: 17.9%;
+	width: 20%;
 	height: 290px;
 	background-color: rgb(12, 42, 78);
 	display: inline-block;
@@ -175,6 +175,7 @@ img{
   border-width: 1px;
   color: white;
   line-height: 1.5;
+  font-size: 16px;
 }
  .card:hover{
 	transform: scale(1.5);
